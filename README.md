@@ -1,14 +1,18 @@
 # settingds3231
 seting ds3231 dengan menggunakan esp8266 sebagai ap
 
-#sebab
+#sebab:
 berarwal dari pembuatan jam jadwal sholat di mushola mushola, dimana untuk menekan biaya maka digunakan atmega328 
 sebagai microkontrolernya tanpa ada menu untuk menge-set waktunya. sehingga muncul kesulitan ketika ada perubahan pada jam yang tampil.
 yang terjadi ketika ada psu yang short ataupun masalah yang lain
 
-#solusi
+#solusi:
 agar tidak terlalu ribet untuk membawa laptop ketika digunakan hanya untuk meng-seting waktu pada sebuah modul ds3231 maka dibuatlah
 handheld yang sederhana dengan memanfaatkan esp8266, yang bekerja sebagai access point untuk selanjutnya menampilkan ui 
 yang mengirimkan setingan waktu baru ke modul ds3231. 
+
+#interface: hubungkan esp8266 dengan modul melalui i2c, jalankan arduino ide, install semua lib yang dibutuhkan, uplaod sourcecode, upload sketch data upload. 
+
+#koneksi: buka browser (di pc/lptop/hp/dll) hubungkan wifi dengan aksespoinya esp8266 password: 123456789 masukkan parameter setingan lalu  kirim....
 
 ![WhatsApp Image 2023-08-04 at 19 54 33](https://github.com/metra05/settingds3231/assets/57317176/127ea597-36df-4f78-9f4f-3c91fe502d19)
