@@ -10,3 +10,5 @@ yang terjadi ketika ada psu yang short ataupun masalah yang lain
 agar tidak terlalu ribet untuk membawa laptop ketika digunakan hanya untuk meng-seting waktu pada sebuah modul ds3231 maka dibuatlah
 handheld yang sederhana dengan memanfaatkan esp8266, yang bekerja sebagai access point untuk selanjutnya menampilkan ui 
 yang mengirimkan setingan waktu baru ke modul ds3231. 
+
+![WhatsApp Image 2023-08-04 at 19 54 33](https://github.com/metra05/settingds3231/assets/57317176/127ea597-36df-4f78-9f4f-3c91fe502d19)
