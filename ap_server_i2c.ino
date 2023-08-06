@@ -203,14 +203,14 @@ void setup(){
     tgl =inputMessage3.toInt();
     j =inputMessage4.toInt();
     mnt =inputMessage5.toInt();
-    //hr =inputMessage6.toInt();
-    if (inputMessage6="Minggu"){hr=0;}
-        if (inputMessage6="Senin"){hr=1;}
-            if (inputMessage6="Selasa"){hr=2;}
-                if (inputMessage6="Rabu"){hr=3;}
-                    if (inputMessage6="Kamis"){hr=4;}
-                        if (inputMessage6="Jumat"){hr=5;}
-                            if (inputMessage6="Sabtu"){hr=6;}
+    hr =inputMessage6.toInt();
+    //if (inputMessage6="Minggu"){hr=0;}
+      //  if (inputMessage6="Senin"){hr=1;}
+        //    if (inputMessage6="Selasa"){hr=2;}
+          //      if (inputMessage6="Rabu"){hr=3;}
+            //        if (inputMessage6="Kamis"){hr=4;}
+              //          if (inputMessage6="Jumat"){hr=5;}
+                //            if (inputMessage6="Sabtu"){hr=6;}
 
     DateTime dt(thn, bln, tgl, j, mnt, 0, hr);
 
