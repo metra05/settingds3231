@@ -175,7 +175,7 @@ void setup(){
   });
 
   //route untuk manmpilkan nilai pressure (dalam hal ini adalah nilai acak
-  server.on("/pressure", HTTP_GET, [](AsyncWebServerRequest *request){
+  server.on("/hari", HTTP_GET, [](AsyncWebServerRequest *request){
     request->send_P(200, "text/plain", AngkaAcak().c_str()); 
   });
 
