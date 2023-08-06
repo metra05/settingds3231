@@ -64,13 +64,13 @@ String AngkaAcak() {
   DateTime now = rtc.now();
   int pres=now.dayOfWeek();
   String buffer;
-  if (pres=0){buffer="MINGGU";}
-   if (pres=1){buffer="SENIN";}
-    if (pres=2){buffer="SELASA";}
-     if (pres=3){buffer="RABU";}
-      if (pres=4){buffer="KAMIS";}
-       if (pres=5){buffer="JUMAT";}
-        if (pres=6){buffer="SABTU";}
+  if (pres==0){buffer="MINGGU";}
+   if (pres==1){buffer="SENIN";}
+    if (pres==2){buffer="SELASA";}
+     if (pres==3){buffer="RABU";}
+      if (pres==4){buffer="KAMIS";}
+       if (pres==5){buffer="JUMAT";}
+        if (pres==6){buffer="SABTU";}
   return String(buffer);//pressure);
 }
 
@@ -204,13 +204,13 @@ void setup(){
     j =inputMessage4.toInt();
     mnt =inputMessage5.toInt();
     hr =inputMessage6.toInt();
-    //if (inputMessage6="Minggu"){hr=0;}
-      //  if (inputMessage6="Senin"){hr=1;}
-        //    if (inputMessage6="Selasa"){hr=2;}
-          //      if (inputMessage6="Rabu"){hr=3;}
-            //        if (inputMessage6="Kamis"){hr=4;}
-              //          if (inputMessage6="Jumat"){hr=5;}
-                //            if (inputMessage6="Sabtu"){hr=6;}
+    //if (inputMessage6=="Minggu"){hr=0;}
+      //  if (inputMessage6=="Senin"){hr=1;}
+        //    if (inputMessage6=="Selasa"){hr=2;}
+          //      if (inputMessage6=="Rabu"){hr=3;}
+            //        if (inputMessage6=="Kamis"){hr=4;}
+              //          if (inputMessage6=="Jumat"){hr=5;}
+                //            if (inputMessage6=="Sabtu"){hr=6;}
 
     DateTime dt(thn, bln, tgl, j, mnt, 0, hr);
 
